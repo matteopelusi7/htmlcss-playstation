@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
 }
@@ -7,6 +11,10 @@ img {
 header {
     background-color: black;
     color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 header .sony-logo {
@@ -35,7 +43,7 @@ header .lens-header {
     width: 180px;
 }
 
-.jumbo-description {
+#jumbo .jumbo-description {
     padding-top: 250px;
     padding-bottom: 50px;
 }
@@ -52,6 +60,29 @@ header .lens-header {
 
     #jumbo .jumbo-img {
         width: 350px;
+    }
+
+}
+
+/* jumbo game */
+
+#jumbo-game img {
+    border-radius: 10px;
+}
+
+/* console info */
+
+#console-info .console figure {
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+@media all and (min-width: 768px) {
+
+    #console-info .console {
+        justify-content: center;
+        gap: 30px;
     }
 
 }
