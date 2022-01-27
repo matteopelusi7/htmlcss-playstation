@@ -1,0 +1,17 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+header .sony-logo {
+    width: 100px;
+}
+
+header .lens-header {
+    width: 30px;
+}
+
+.navbar ul li {
+    font-weight: 600;
+    font-size: 18px;
+}
