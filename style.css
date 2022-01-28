@@ -6,6 +6,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 /* header */
 
 header {
@@ -88,7 +92,7 @@ header ul li svg {
         gap: 30px;
     }
 
-    #banner-play-plus .col-6 .img-play-plus {
+    .col-6 .img-play-plus {
         display: block;
     }
 
@@ -119,17 +123,41 @@ header ul li svg {
     background-color: #bebcbb;
 }
 
-#banner-play-plus .logo-play-plus {
+.logo-play-plus {
     width: 300px;
 }
 
-#banner-play-plus button {
+.button-banner {
     background-color: #d9dadc;
     color: blue;
     border: none;
 }
 
-#banner-play-plus .img-play-plus {
+.img-play-plus {
     margin-bottom: 0;
     display: none;
+}
+
+/* sale */
+
+/* banner play plus 2 */
+
+#banner-play-plus-2 {
+    background-color: #161c3b;
+}
+
+/* social */
+
+/* footer */
+
+footer {
+    background-color: #00439c;
+}
+
+footer .logo-footer {
+    width: 150px;
+}
+
+footer a {
+    text-decoration: underline;
 }
