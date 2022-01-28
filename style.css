@@ -30,6 +30,10 @@ header .lens-header {
     font-size: 18px;
 }
 
+header ul li svg {
+    width: 10px;
+}
+
 /* jumbo */
 
 #jumbo {
@@ -43,9 +47,8 @@ header .lens-header {
     width: 180px;
 }
 
-#jumbo .jumbo-description {
-    padding-top: 250px;
-    padding-bottom: 50px;
+#jumbo .row, #banner-game .row {
+    min-height: 590px;
 }
 
 @media all and (min-width: 992px) {
@@ -94,10 +97,6 @@ header .lens-header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-#banner-game .jumbo-description {
-    padding: 70px 0;
 }
 
 /* new game */
