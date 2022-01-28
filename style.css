@@ -88,6 +88,10 @@ header ul li svg {
         gap: 30px;
     }
 
+    #banner-play-plus .col-6 .img-play-plus {
+        display: block;
+    }
+
 }
 
 /* banner game */
@@ -104,4 +108,28 @@ header ul li svg {
 #new-game {
     background-color: #1f1f1f;
     color: white;
+}
+
+/* play 4 info */
+
+
+/* banner play plus */
+
+#banner-play-plus {
+    background-color: #bebcbb;
+}
+
+#banner-play-plus .logo-play-plus {
+    width: 300px;
+}
+
+#banner-play-plus button {
+    background-color: #d9dadc;
+    color: blue;
+    border: none;
+}
+
+#banner-play-plus .img-play-plus {
+    margin-bottom: 0;
+    display: none;
 }
