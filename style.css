@@ -39,6 +39,26 @@ header ul li svg {
     width: 10px;
 }
 
+/* dropdown */
+
+.dropdown {
+    position: initial;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-menu .list-drop {
+    display: inline-block;
+}
+
+.dropdown-menu i {
+    font-size: 8px;
+    color: var(--bs-blue);
+    vertical-align: 2px;
+}
+
 /* jumbo */
 
 #jumbo {
